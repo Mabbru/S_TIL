@@ -4,8 +4,8 @@
 ---
 <details>
   <summary><strong>### 2주차 </strong></summary>
-    <detail>
+    <details>
       <summary> CUL&GUL </summary>
       asldka;lsdk
-    </detail>
+    </details>
 </details>

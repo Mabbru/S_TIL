@@ -7,7 +7,7 @@
      <details>
         <summary><strong>## CLI&GIT <strong></summary>
           - 하나
-- 둘
+          - 둘
 
      </details>
 </details>

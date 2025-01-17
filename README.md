@@ -3,7 +3,7 @@
 ## 1월
 ---
 <details>
-  <summary><h3>## 2주차</h3></summary>
+  <summary><h3> 2주차</h3></summary>
     <details>
       <summary> CUL&GUL </summary>
 - CLI(Command Line Interface): **명령어**를 통해 사용자와 컴퓨터가 상호 작용하는 방식

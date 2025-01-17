@@ -8,6 +8,7 @@
 
   <details>
     <summary>CUL & GUL</summary>
+    
     - CLI(Command Line Interface): **명령어**를 통해 사용자와 컴퓨터가 상호 작용하는 방식
     - GUL(Graphic User Interface): **그래픽**을 통해 사용자와 컴퓨터가 상호 작용하는 방식
     - CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다. 개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
@@ -15,6 +16,7 @@
 
   <details>
     <summary>CUL 中 (“.”, “..”, touch, mkdir, ls, cd, start, rm (-r), pwd)</summary>
+    
     - ‘.’(점)의 역할은 위치를 알려주는 역할이다. 하나는 현재 디렉토리, 둘은 현재의 상위 디렉토리이다.
     - touch: 파일 생성 / mkdir: 새 디렉토리 생성 / ls: 현재 작업 중인 디렉토리 내부의 폴더 혹은 파일 목록을 출력
       1. touch text.txt
@@ -33,6 +35,7 @@
 
   <details>
     <summary>Git이란?</summary>
+    
     - Google Docs를 활용한 버전 관리 예시와 유사하다. ⇒ ‘누가 언제 어떻게 왜’ 를 기록하면서 다음 버전은 이전 버전에 대해서 **변경점만을 저장**하고 있다.
     - 기존과 다르게 이전 버전에 대해서 추가사항이 어떤 것이 있는지 확인할 수 있으며 최종사항은 따로 저장
     - **분산** 버전 관리 시스템
@@ -51,6 +54,7 @@
 
   <details>
     <summary>Git의 영역</summary>
+    
     - **Working Directory(W.D)**: 실제 작업 중인 파일들이 위치하는 영역
     - **Staging Area (개념적으로만 존재)**: W.D에서 변경된 파일 중, 다음 버전에 포함시킬 파일들을 선택적으로 추가하거나 제외할 수 있는 **중간 준비 영역**
     - **Repository**: **버전(commit)** 이력(history)과 파일들이 영구적으로 저장되는 영역으로 모든 **버전(commit)**과 변경 이력이 기록
@@ -59,6 +63,7 @@
 
   <details>
     <summary>Git의 동작</summary>
+    
     - git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
     - git add: 변경사항이 있는 파일을 staging area에 추가
     - git commit: staging area에 있는 파일들을 저장소에 기록 → 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
@@ -71,6 +76,7 @@
 
   <details>
     <summary>git init 주의사항</summary>
+    
     - git 로컬 저장소 내에 또 다른 git 로컬 저장소를 만들지 말 것
     - 즉, 이미 git 로컬 저장소인 디렉토리 내부 하단에서 git init 명령어를 다시 입력하지 말 것
     - git 저장소 안에 git 저장소가 있을 경우 가장 바깥쪽의 git 저장소가 안쪽의 git 저장소의 변경 사항을 추적할 수 없기 때문
@@ -80,11 +86,13 @@
 
   <details>
     <summary>Vim</summary>
+    
     - i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
   </details>
 
   <details>
     <summary>CUL 中 (remote, push, pull, clone, gitignore)</summary>
+    
     - remote: git remote add (명령어) | origin(별칭) | URL(원격 저장소)
     - push: git push (명령어) | origin(별칭) | master (branch 이름)
     - commit 이력이 없다면 push 할 수 없다. 이를 클라우드와 같이 파일을 저장만 하는 곳으로 이해하지 말 것

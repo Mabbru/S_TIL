@@ -6,6 +6,7 @@
   <summary> 2주차 </summary>
      <details>
         <summary><strong>## CLI&GIT <strong></summary>
+          
 - CLI(Command Line Interface): **명령어**를 통해 사용자와 컴퓨터가 상호 작용하는 방식
           
 - GUL(Graphic User Interface): **그래픽**을 통해 사용자와 컴퓨터가 상호 작용하는 방식

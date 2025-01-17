@@ -3,11 +3,17 @@
 ## 1월
 ---
 <details>
-  <summary> 2주차 </summary>
-     <details>
-        <summary><strong>## CLI&GIT <strong></summary>
-          - 하나
-          - 둘
-
-     </details>
+  <summary><strong>### 2주차 <strong></summary>
+    <detail>
+      <summary> CUL&GUL </summary>
+      asldka;lsdk
+    </detail>
+    <detail>
+      <summary> CUL&GUL </summary>
+      asldka;lsdk
+    </detail>
+    <detail>
+      <summary> CUL&GUL </summary>
+      asldka;lsdk
+    </detail>
 </details>

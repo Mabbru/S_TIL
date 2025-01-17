@@ -87,7 +87,7 @@
     <details>
       <summary> Vim </summary>
 
-- i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
+    - i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
     </details>
 
     <details>

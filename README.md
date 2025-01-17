@@ -12,6 +12,7 @@
     - GUL(Graphic User Interface): **그래픽**을 통해 사용자와 컴퓨터가 상호 작용하는 방식
     - CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다. 개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
     </details>
+    
     <details>
       <summary> CUL 中 (“.”, “..”, touch, mkdir, ls, cd, start, rm (-r), pwd) </summary>
       
@@ -30,6 +31,7 @@
         2. 만약 현재 작업하는 있는 디렉토리가 C:/Users 일 때, 윈도우 바탕 화면으로 의 상대 경로는 ssafy/Desktop 이다.
         3. 나를 중심 혹은 컴퓨터를 중심으로 이동할 것인가를 생각하면 된다. 일반적으로 상대 경로를 통해 전달하는데 이는 절대 경로의 경우 보안에 위험이 있을 수 있기 때문이다.
     </details>
+    
     <details>
       <summary> Git이란? </summary>
       
@@ -49,6 +51,7 @@
     
     ⇒ 분산 버전 관리 시스템으로 코드의 ‘변경 이력’을 기록하고 ‘협업’을 도와주는 도구
     </details>
+    
     <details>
       <summary> Git의 영역 </summary>
 
@@ -62,6 +65,7 @@
         - **버전(commit)** 이력(history)과 파일들이 영구적으로 저장되는 영역으로 모든 **버전(commit)**과 변경 이력이 기록
             - commit(버전): 변경된 파일들을 저장하는 행위이며, 마치 사진을 찍듯이 기록한다 하여 ‘snapshot’ 이라고도 함
     </details>
+    
     <details>
       <summary> Git의 동작 </summary>
       

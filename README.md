@@ -1,107 +1,20 @@
-# SSAFY 정리
+# MY TIL
 
-# 트랙 1일차
+## 1월
+---
 
-## https://www.markdownguide.org/basic-syntax/ (Mark Down Guide)
-
-Markdown 은 주로 개발자들이 텍스트와 코드를 작성해 문서화하기 위해 사용된다. 작성된 Markdown 문서는 **다른 프로그램**에 의해 변환되어 출력 된다. 개발에서 Docs와 같은 문서 프로그램이 아닌 Markdown 문서를 사용하는 가장 큰 이유는 **프로그래밍 언어에 맞춰서 텍스트 스타일을 변환**하기 때문이다. 개발자는 문서화 + 코드를 통해서 **소통**을 한다. Markdown 사용의 가장 큰 이유는 **문서의 구조화** 때문이다. Markdown은 문서를 꾸미는 것이 아니다. 따라서 텍스트 관련 문법인 **‘굵게’** 등의 사용은 문서의 구조화를 방해한다. 
-
-- Markdown Code
-    
-    ```markdown
-    # 개발자로 성장하기 
-    ## 제목 2
-    ### 제목 3
-    #### 제목 4
-    ##### 제목 5
-    ###### 제목 6
-    
-    - 대체 어디서부터 시작해서 어디까지 해야할까?
-    - Python과 Java를 배우면 개발자가 되는걸까?
-    
-    제일 중요한건 **꾸준한 학습**을 할 수 있는 사람인지를 보여줘야한다!
-    
-    1. 순서가
-        1. 있는
-    2. 리스트
-    
-    - 검은 동그라미
-        - 빈 동그라미
-    - 다시 동그라미 
-    
-    ## 코드 블럭의 두 종류
-    
-    ### 인라인 코드블럭
-    `print('hello)`
-    
-    ### 코드블럭
-    
-    ```python
-    print('hello)
-    
-    ```
-    
-    ### 링크와 이미지
-    
-    [Google, 버튼](https://www.google.com/)
-    
-    ![이미지, 대체 텍스트](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQP5QQKcY4t1-_XAOvt_5Ii9LGJqTDX0B7u5sOZJFeU8QCGJ2jReifGEDftXkScCw-lMm8nmFUYF2QXwMR2KrzTsw)
-    ```
-    
-- Markdown Preview
-    
-    ![image.png](image%207.png)
-    
-
-# 트랙 2일차
-
-## AI와 법 특강
-
-### INTRO
-
-- 생성형 AI 리스크의 예: 부정확성, 사이버보안, IP침해, 설명가능성, 개인정보, HR 이슈
-- 인공지능 규제 개관
-- EU AI act - 위험기반 규제 (Risk-based Approach)
-    - 정도
-        1. 수인불가 위험
-        2. 고위험
-        3. 제한된 위험
-        4. 최소 위험
-    - 미국과 중국이 AI를 선도
-    - EU는 통제의 대상으로 보면서 가장 먼저 법 개관
-
-### AI 관련 저작권 이슈
-
-- 인공지능 학습 데이터 구축을 위해 활용되는 데이터를 총칭. **학습된 데이터의 양이 인공지능의 성능**에 영향을 미침 ⇒ 이를 위해서 데이터를 수집해야 하며 이 과정에서 저작권과 연관됨
-- 저작권(권리의 다발) ⇒ AI학습, 산출물 생성 시 복제 및 이용 행위가 포함되므로 **저작권 침해의 위험**이 내제된다.
-- 최근 한국 내에 관련 이슈로는 방송 3사가 네이버에 소송한 것이 대표적이다.
-- AI 개발 과정에서는 저작권을 침해하지 않는지, 개발 후에는 저작권 관련 협약 내용이 어떻게 되는지
-- 미국 저작권 청, 인공지능(AI) 창작물의 저작물성 부정 → 저작권의 주체 부정. AI와 사람이 같이 만든 경우는 AI 부분과 사람 부분을 나눠서 사람 부분만 인정하는 추세.
-
-### 할루시네이션과 딥페이크
-
-- 가짜 정보 만든 AI, 진짜로 보이게 데이터까지 조작
-- 이용자 보호의 측면에서 인공지능 관련 워터마크 등 표시 의무 추진
-- 방통위도 이용자 보호 규범 마련 추진
-- 할루시네이션 발생 원인: 데이터 신뢰성 이슈 ⇒ 향상된 훈련 데이터, 사고 대응팀, 투명성과 설명 가능성 등
-
-### AI와 개인정보
-
-- 데이터 처리방식의 변화의 Privacy
-    - 대량의 비라벨링 데이터 학습
-    - 인공지능 단계 별 주요 쟁점
-        - 기획 ⇒ 개인정보 보호 중심 설계 원칙(pbD)
-        - 수집학습 ⇒ 개인정보 처리 근거, 공개된 정보, 영상정보 …
-        - 서비스  ⇒ 투명성 …
-
-## CLI&GIT
-
+<details>
+  <summary><h3> 2주차</h3></summary>
+    <details>
+      <summary> CUL&GUL </summary>
+      
 - CLI(Command Line Interface): **명령어**를 통해 사용자와 컴퓨터가 상호 작용하는 방식
 - GUL(Graphic User Interface): **그래픽**을 통해 사용자와 컴퓨터가 상호 작용하는 방식
-- CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다.개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
-
-### CLI
-
+- CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다. 개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
+    </details>
+    <details>
+      <summary> CUL 中 (“.”, “..”, touch, mkdir, ls, cd, start, rm (-r), pwd) </summary>
+      
 1. ‘.’(점)의 역할은 위치를 알려주는 역할이다. 하나는 현재 디렉토리, 둘은 현재의 상위 디렉토리이다.
 2. touch: 파일 생성 / mkdir: 새 디렉토리 생성 / ls: 현재 작업 중인 디렉토리 내부의 폴더 혹은 파일 목록을 출력
     1. touch text.txt
@@ -109,19 +22,18 @@ Markdown 은 주로 개발자들이 텍스트와 코드를 작성해 문서화�
     3. ls . or ls ..
 3. cd: 현재 작업 중인 디렉토리를 변경(위치 이동) / start: 폴더 혹은 파일을 열기 / rm: 파일 삭제 (디렉토리 삭제는 -r 옵션을 추가 사용) / pwd: 현재 작업 공간 확인(print working dir)
     1. cd new_dir → cd .. ⇒ 제자리
-    2. start text,txt
-    3. rm text,txt or rm -r new_dir
+    2. start text.txt
+    3. rm text.txt or rm -r new_dir
 4. CLI에서 가장 중요한 것: **내가 어디 있는지(경로)** 알아야 한다. 
 5. **절대 경로:** Root 디렉토리부터 목적 지점까지 거치는 모든 경로를 전부 작성한 것 / **상대 경로**: 현재 작업하고 있는 디렉토리를 기준으로 계산된 상대적 위치를 작성한 것
     1. 윈도우 바탕 화면의 절대 경로 예시: C:/Users/ssafy/Desktop
     2. 만약 현재 작업하는 있는 디렉토리가 C:/Users 일 때, 윈도우 바탕 화면으로 의 상대 경로는 ssafy/Desktop 이다.
-    3. 나를 중심 혹은 컴퓨터를 중심으로 이동할 것인가를 생각하면 된다. 일반적으로 상대 경로를 통해 전달하는데 이는 절대 경로의 경우 보안에 위험이 있을 수 있기 때문이다. 
-
-***⇒ “.”, “..”, touch, mkdir, ls, cd, start, rm (-r), pwd***
-
-### GIT이란?
-
-- Google Docs를 활용한 버전 관리 예시와 유사하다. ⇒ ‘누가 언제 어떻게 왜’ 를 기록하면서 다음 버전은 이전 버전에 대해서 **변경점만을 저장**하고 있다.
+    3. 나를 중심 혹은 컴퓨터를 중심으로 이동할 것인가를 생각하면 된다. 일반적으로 상대 경로를 통해 전달하는데 이는 절대 경로의 경우 보안에 위험이 있을 수 있기 때문이다.
+    </details>
+    <details>
+      <summary> Git이란? </summary>
+      
+    - Google Docs를 활용한 버전 관리 예시와 유사하다. ⇒ ‘누가 언제 어떻게 왜’ 를 기록하면서 다음 버전은 이전 버전에 대해서 **변경점만을 저장**하고 있다.
 - 기존과 다르게 이전 버전에 대해서 추가사항이 어떤 것이 있는지 확인할 수 있으며 최종사항은 따로 저장
 - **분산** 버전 관리 시스템
     - 중앙 집중식: 버전은 중앙 서버에 저장되고 중앙 서버에서 파일을 가져와 다시 중앙에 업로드
@@ -133,16 +45,14 @@ Markdown 은 주로 개발자들이 텍스트와 코드를 작성해 문서화�
 - Git의 역할
     - 코드의 버전(히스토리)를 관리
     - 개발되어 온 과정 파악
-    - 이전 버전과의 변경 사항 비교
+    - 이전 버전과의 변경 사항 비교   ⇒ undoing과 연관지을 수 있음
     
-    ⇒ undoing과 연관지을 수 있음
-    
+    ⇒ 분산 버전 관리 시스템으로 코드의 ‘변경 이력’을 기록하고 ‘협업’을 도와주는 도구
+    </details>
+    <details>
+      <summary> Git의 영역 </summary>
 
-***⇒ 분산 버전 관리 시스템**으로 코드의 **‘변경 이력’**을 기록하고 **‘협업’**을 도와주는 도구*
-
-### Git의 영역
-
-- Working Directory(W.D)
+      - Working Directory(W.D)
     - 실제 작업 중인 파일들이 위치하는 영역
         - ad
 - Staging Area (개념적으로만 존재)
@@ -150,31 +60,37 @@ Markdown 은 주로 개발자들이 텍스트와 코드를 작성해 문서화�
 - Repository
     - **버전(commit)** 이력(history)과 파일들이 영구적으로 저장되는 영역으로 모든 **버전(commit)**과 변경 이력이 기록
         - commit(버전): 변경된 파일들을 저장하는 행위이며, 마치 사진을 찍듯이 기록한다 하여 ‘snapshot’ 이라고도 함
-
-### Git의 동작
-
-- git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
-- git add: 변경사항이 있는 파일을 staging area에 추
+    </details>
+    <details>
+      <summary> Git의 동작 </summary>
+      
+      - git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
+- git add: 변경사항이 있는 파일을 staging area에 추가
 - git commit: staging area에 있는 파일들을 저장소에 기록 → 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
 - git status: staging area 상태 확인
-- git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.](http://user.email)name “유저네임”
+- git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.name](http://user.email) “유저네임”
 - — global: 어디서든 입력 가능하며 이를 반복적으로 사용할 시 덮어쓰워짐
-- ls -a ⇒ ./../.git/sample ⇒ .git이 Repositery이며 Version DB + seetings , git_prac는 W.D
-- staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area 이란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
-
-### git init 주의 사항:
-
-- git 로컬 저장소 내에 또 다른 git 로컬 저장소를 만들지 말 것
+- ls -a ⇒ ./../.git/sample ⇒ .git이 Repository이며 Version DB + settings , git_prac는 W.D
+- staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
+    </details>
+    <details>
+      <summary> git init 주의사항 </summary>
+      
+      - git 로컬 저장소 내에 또 다른 git 로컬 저장소를 만들지 말 것
     - 즉 이미 git 로컬 저장소인 디렉토리 내부 하단에서 git init 명령어를 다시 입력하지 말 것
 - git 저장소 안에 git 저장소가 있을 경우 가장 바깥 쪽의 git 저장소가 안쪽의 git 저장소의 변경사항을 추적할 수 없기 때문
 - 때문에 boot나 바탕화면이 아닌 C 드라이브 같은 곳에 설정할 것
-- git commit —amend⇒ 이전 commit 수
+- git commit —amend⇒ 이전 commit 수정
+    </details>
 
-### Vim:
+    <details>
+      <summary> Vim </summary>
 
 - i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
+    </details>
 
-## Start camp_day_2
+    <details>
+      <summary> CUL 中 (remote, push, pull, clone, gitignore)</summary>
 
 - remote: git remote add(명령어) | origin(별칭) | URL(원격 저장소)
 - push: git push(명령어) | origin(별칭) | master (branch 이름)
@@ -187,13 +103,6 @@ Markdown 은 주로 개발자들이 텍스트와 코드를 작성해 문서화�
 - gitignore: git 에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는데 사용되는 텍스트 파일
     - touch .gitignore | [gitignore.io](http://gitignore.io) 사이트 참조
     - 한 번 staging area에 추가되는 순간 gitignore 효과는 사라짐. 따라서 처음 repo를 만들 때, gitignore를 포함하여 설계하는 것이 중요
-
-# 트랙 3일차
-
-## Start camp_day_2 & Start camp_day_3
-
-- TIL(Today I Learn): 매일 내가 배운 것을 Markdown으로 정리해서 문서화하는 것
-- ‘문서화’ 의 중요성: 신입 개발자에게 요구되는 가장 중요한 덕목이며 이는 나 말고도 이를 보고 이어갈 다른 개발자 입장도 고려되어야 한다. ⇒ 꾸준히 스스로 학습해 성장할 수 있고 문서화를 통해 내 생각을 정리하고 팀에 공유할 수 있는 능력
-- 경로마다 readme 파일이 있을 수 있다.
-    
-    ![image.png](image%208.png)
+    </details>
+  
+</details>

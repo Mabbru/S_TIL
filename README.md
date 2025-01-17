@@ -105,5 +105,13 @@
       - touch .gitignore | [gitignore.io](http://gitignore.io) 사이트 참조
       - 한 번 staging area에 추가되는 순간 gitignore 효과는 사라짐. 따라서 처음 repo를 만들 때, gitignore를 포함하여 설계하는 것이 중요
   </details>
+  
+  <details>
+    <summary>TIL</summary>
+    
+    - TIL(Today I Learn): 매일 내가 배운 것을 Markdown으로 정리해서 문서화하는 것
+    - ‘문서화’ 의 중요성: 신입 개발자에게 요구되는 가장 중요한 덕목이며 이는 나 말고도 이를 보고 이어갈 다른 개발자 입장도 고려되어야 한다. ⇒ 꾸준히 스스로 학습해 성장할 수 있고 문서화를 통해 내 생각을 정리하고 팀에 공유할 수 있는 능력
+    - 경로마다 readme 파일이 있을 수 있다.
+  </details>
 
 </details>

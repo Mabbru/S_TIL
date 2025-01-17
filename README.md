@@ -64,14 +64,14 @@
     <details>
       <summary> Git의 동작 </summary>
       
-      - git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
-- git add: 변경사항이 있는 파일을 staging area에 추가
+- git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
+- git add: 변경사항이 있는 파일을 staging area에 추
 - git commit: staging area에 있는 파일들을 저장소에 기록 → 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
 - git status: staging area 상태 확인
-- git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.name](http://user.email) “유저네임”
+- git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.](http://user.email)name “유저네임”
 - — global: 어디서든 입력 가능하며 이를 반복적으로 사용할 시 덮어쓰워짐
-- ls -a ⇒ ./../.git/sample ⇒ .git이 Repository이며 Version DB + settings , git_prac는 W.D
-- staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
+- ls -a ⇒ ./../.git/sample ⇒ .git이 Repositery이며 Version DB + seetings , git_prac는 W.D
+- staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area 이란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
     </details>
     <details>
       <summary> git init 주의사항 </summary>

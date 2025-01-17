@@ -1,8 +1,6 @@
 # MY TIL
 
 ## 1월
----
-
 <details>
   <summary><h3>2주차</h3></summary>
 

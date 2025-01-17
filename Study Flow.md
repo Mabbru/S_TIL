@@ -113,7 +113,7 @@
   </details>
 
   <details>
-    <summary>Revert&Reset</summary>
+    <summary>Revert&Reset&restore</summary>
     
     - commit -amend ⇒ 바로 직전 수정을 통한 재확인 및 검증
     - 과거로 되돌린다는 공통점은 있으나 Revert는 되돌렸다는 기록, history, commit을 남김, Reset은 기록 조차 없음

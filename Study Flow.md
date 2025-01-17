@@ -112,4 +112,25 @@
     - 경로마다 readme 파일이 있을 수 있다.
   </details>
 
+  <details>
+    <summary>Revert&Reset</summary>
+    
+    - commit -amend ⇒ 바로 직전 수정을 통한 재확인 및 검증
+    - 과거로 되돌린다는 공통점은 있으나 Revert는 되돌렸다는 기록, history, commit을 남김, Reset은 기록 조차 없음
+    - revert: 재설정, 단일 commit을 실행 취소, 프로젝트 기록에서 commit을 없었던 일로 처리 후 그 결과를 commit으로 추가. 이를 통해서 추적 가능하다.
+    - git revert 정리
+        - 변경 사항을 안전하게 실행 취소할 수 있도록 도와주는 순방향 실행 취소 작업
+        - commit기록에서 commit을 삭제하거나 분리하는 대신 지정된 변경 사항을 반전시키는 새 commit을 생성
+        - git에서 기록이 손실되는 것을 방지하며 기록의 무결성과 협업의 신뢰성 높임
+    - git reset: 특정 commit으로 되돌아가는 작업, git reset [옵션 <commit id>
+    - git resetd 작동 원리: 되돌리기, 시계를 마치 과거로 돌리는 듯한 행위, 특정 commit 으로 되돌아 갔을 때, 되돌아간 commit 이후의 commit은 모두 삭제
+        - —sort, —mixed. —hard: 삭제되는 commit들의 기록을 어떤 영역에 남겨둘 것인지 정하는 옵션.
+            - soft: 삭제 commit을 staging area에 남김
+        - git restore: 파일 내용 수정 전으로 되돌리기
+            - staging area에 올라간 파일을 Unstage 하기
+                - git rm —cached
+                - git restore —staged
+  </details>
+
+
 </details>

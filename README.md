@@ -4,7 +4,9 @@
 ### 2주차
 ---
 <details>
-  <summary> 1일 </summary>
-  - Git 활용 |n
-  - Github
+  <summary> 2주차 </summary>
+     <details>
+        <summary> 1일 </summary>
+      git acting
+     </details>
 </details>

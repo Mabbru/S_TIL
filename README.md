@@ -93,13 +93,17 @@
       <summary> CUL 中 (remote, push, pull, clone, gitignore)</summary>
 
 - remote: git remote add(명령어) | origin(별칭) | URL(원격 저장소)
+  
 - push: git push(명령어) | origin(별칭) | master (branch 이름)
     - commit 이력이 없다면 push 할 수 없다. 이를 클라우드와 같이 파일을 저장만 하는 곳으로 이해하지 X
     - 로컬 → 원격
+      
 - pull: git pull | URL(원격 저장소)
     - 원격 저장소에 있던 파일들을 기준으로 로컬 저장소 파일들을 업데이트 시킴
+      
 - clone: git clone | URL(원격 저장소)
     - 원격 저장소에 있던 파일들을 로컬 저장소로 다운받음
+      
 - gitignore: git 에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는데 사용되는 텍스트 파일
     - touch .gitignore | [gitignore.io](http://gitignore.io) 사이트 참조
     - 한 번 staging area에 추가되는 순간 gitignore 효과는 사라짐. 따라서 처음 repo를 만들 때, gitignore를 포함하여 설계하는 것이 중요

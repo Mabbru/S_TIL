@@ -58,47 +58,42 @@
 
     
     <details>
-      <summary> Git의 동작 </summary>
-      
-    - git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
-    - git add: 변경사항이 있는 파일을 staging area에 추
-    - git commit: staging area에 있는 파일들을 저장소에 기록 → 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
-    - git status: staging area 상태 확인
-    - git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.](http://user.email)name “유저네임”
-    - — global: 어디서든 입력 가능하며 이를 반복적으로 사용할 시 덮어쓰워짐
-    - ls -a ⇒ ./../.git/sample ⇒ .git이 Repositery이며 Version DB + seetings , git_prac는 W.D
-    - staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area 이란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
-    </details>
-    <details>
-      <summary> git init 주의사항 </summary>
-      
-    - git 로컬 저장소 내에 또 다른 git 로컬 저장소를 만들지 말 것
-    - 즉 이미 git 로컬 저장소인 디렉토리 내부 하단에서 git init 명령어를 다시 입력하지 말 것
-    - git 저장소 안에 git 저장소가 있을 경우 가장 바깥 쪽의 git 저장소가 안쪽의 git 저장소의 변경사항을 추적할 수 없기 때문
-    - 때문에 boot나 바탕화면이 아닌 C 드라이브 같은 곳에 설정할 것
-    - git commit —amend⇒ 이전 commit 수정
-    </details>
+  <summary>Git의 동작</summary>
+  - git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
+  - git add: 변경사항이 있는 파일을 staging area에 추가
+  - git commit: staging area에 있는 파일들을 저장소에 기록 → 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
+  - git status: staging area 상태 확인
+  - git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.name](http://user.email) “유저네임”
+  - — global: 어디서든 입력 가능하며 이를 반복적으로 사용할 시 덮어쓰여짐
+  - ls -a ⇒ ./../.git/sample ⇒ .git이 Repository이며 Version DB + settings, git_prac는 W.D
+  - staging area에 한 번이라도 올라가지 않으면 git으로 관리되지 않는다. staging area란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
+</details>
 
-    <details>
-      <summary> Vim </summary>
+<details>
+  <summary>git init 주의사항</summary>
+  - git 로컬 저장소 내에 또 다른 git 로컬 저장소를 만들지 말 것
+  - 즉, 이미 git 로컬 저장소인 디렉토리 내부 하단에서 git init 명령어를 다시 입력하지 말 것
+  - git 저장소 안에 git 저장소가 있을 경우 가장 바깥쪽의 git 저장소가 안쪽의 git 저장소의 변경 사항을 추적할 수 없기 때문
+  - 때문에 boot나 바탕화면이 아닌 C 드라이브 같은 곳에 설정할 것
+  - git commit —amend ⇒ 이전 commit 수정
+</details>
 
-    - i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
-    </details>
+<details>
+  <summary>Vim</summary>
+  - i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
+</details>
 
-    <details>
-      <summary> CUL 中 (remote, push, pull, clone, gitignore)</summary>
-
-    - remote: git remote add(명령어) | origin(별칭) | URL(원격 저장소)
-    - push: git push(명령어) | origin(별칭) | master (branch 이름)
-    - commit 이력이 없다면 push 할 수 없다. 이를 클라우드와 같이 파일을 저장만 하는 곳으로 이해하지 X
-    - 로컬 → 원격
-    - pull: git pull | URL(원격 저장소)
-        - 원격 저장소에 있던 파일들을 기준으로 로컬 저장소 파일들을 업데이트 시킴
-    - clone: git clone | URL(원격 저장소)
+<details>
+  <summary>CUL 中 (remote, push, pull, clone, gitignore)</summary>
+  - remote: git remote add (명령어) | origin(별칭) | URL(원격 저장소)
+  - push: git push (명령어) | origin(별칭) | master (branch 이름)
+  - commit 이력이 없다면 push 할 수 없다. 이를 클라우드와 같이 파일을 저장만 하는 곳으로 이해하지 말 것
+  - 로컬 → 원격
+  - pull: git pull | URL(원격 저장소)
+    - 원격 저장소에 있던 파일들을 기준으로 로컬 저장소 파일들을 업데이트 시킴
+  - clone: git clone | URL(원격 저장소)
     - 원격 저장소에 있던 파일들을 로컬 저장소로 다운받음
-    - gitignore: git 에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는데 사용되는 텍스트 파일
+  - gitignore: git에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는 데 사용되는 텍스트 파일
     - touch .gitignore | [gitignore.io](http://gitignore.io) 사이트 참조
     - 한 번 staging area에 추가되는 순간 gitignore 효과는 사라짐. 따라서 처음 repo를 만들 때, gitignore를 포함하여 설계하는 것이 중요
-    </details>
-  
 </details>

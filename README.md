@@ -2,6 +2,7 @@
 
 ## 1월
 ---
+
 <details>
   <summary><h3> 2주차</h3></summary>
     <details>
@@ -9,7 +10,7 @@
       
 - CLI(Command Line Interface): **명령어**를 통해 사용자와 컴퓨터가 상호 작용하는 방식
 - GUL(Graphic User Interface): **그래픽**을 통해 사용자와 컴퓨터가 상호 작용하는 방식
-- CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다.개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
+- CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다. 개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
     </details>
     <details>
       <summary> CUL 中 (“.”, “..”, touch, mkdir, ls, cd, start, rm (-r), pwd) </summary>
@@ -21,8 +22,8 @@
     3. ls . or ls ..
 3. cd: 현재 작업 중인 디렉토리를 변경(위치 이동) / start: 폴더 혹은 파일을 열기 / rm: 파일 삭제 (디렉토리 삭제는 -r 옵션을 추가 사용) / pwd: 현재 작업 공간 확인(print working dir)
     1. cd new_dir → cd .. ⇒ 제자리
-    2. start text,txt
-    3. rm text,txt or rm -r new_dir
+    2. start text.txt
+    3. rm text.txt or rm -r new_dir
 4. CLI에서 가장 중요한 것: **내가 어디 있는지(경로)** 알아야 한다. 
 5. **절대 경로:** Root 디렉토리부터 목적 지점까지 거치는 모든 경로를 전부 작성한 것 / **상대 경로**: 현재 작업하고 있는 디렉토리를 기준으로 계산된 상대적 위치를 작성한 것
     1. 윈도우 바탕 화면의 절대 경로 예시: C:/Users/ssafy/Desktop
@@ -60,18 +61,18 @@
     - **버전(commit)** 이력(history)과 파일들이 영구적으로 저장되는 영역으로 모든 **버전(commit)**과 변경 이력이 기록
         - commit(버전): 변경된 파일들을 저장하는 행위이며, 마치 사진을 찍듯이 기록한다 하여 ‘snapshot’ 이라고도 함
     </details>
-    <detalis>
+    <details>
       <summary> Git의 동작 </summary>
       
       - git init: 로컬 저장소 설정(초기화) → git의 버전 관리를 시작할 디렉토리에서 진행 ⇒ 현재 위치를 directory에서 working directory로 바꿈
-- git add: 변경사항이 있는 파일을 staging area에 추
+- git add: 변경사항이 있는 파일을 staging area에 추가
 - git commit: staging area에 있는 파일들을 저장소에 기록 → 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
 - git status: staging area 상태 확인
-- git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.](http://user.email)name “유저네임”
+- git config —global [user.email](http://user.email) “메일 주소”, git config —global [user.name](http://user.email) “유저네임”
 - — global: 어디서든 입력 가능하며 이를 반복적으로 사용할 시 덮어쓰워짐
-- ls -a ⇒ ./../.git/sample ⇒ .git이 Repositery이며 Version DB + seetings , git_prac는 W.D
-- staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area 이란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
-    </detalis>
+- ls -a ⇒ ./../.git/sample ⇒ .git이 Repository이며 Version DB + settings , git_prac는 W.D
+- staging area에 한 번이라도 올라가지 않으면 git으로 관리되어지지 않는다. staging area란 commit할 파일들을 선별한 곳이라고 생각할 수 있다.
+    </details>
     <details>
       <summary> git init 주의사항 </summary>
       
@@ -79,9 +80,11 @@
     - 즉 이미 git 로컬 저장소인 디렉토리 내부 하단에서 git init 명령어를 다시 입력하지 말 것
 - git 저장소 안에 git 저장소가 있을 경우 가장 바깥 쪽의 git 저장소가 안쪽의 git 저장소의 변경사항을 추적할 수 없기 때문
 - 때문에 boot나 바탕화면이 아닌 C 드라이브 같은 곳에 설정할 것
-- git commit —amend⇒ 이전 commit 수
+- git commit —amend⇒ 이전 commit 수정
+    </details>
 
-### Vim:
+    <details>
+      <summary> Vim </summary>
 
 - i: insert mode, 완료한 뒤 :q, :q!, :wq, :wq! 와 같은 명령어로 종료 가능하다.
     </details>
@@ -101,4 +104,5 @@
     - touch .gitignore | [gitignore.io](http://gitignore.io) 사이트 참조
     - 한 번 staging area에 추가되는 순간 gitignore 효과는 사라짐. 따라서 처음 repo를 만들 때, gitignore를 포함하여 설계하는 것이 중요
     </details>
+  
 </details>

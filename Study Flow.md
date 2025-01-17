@@ -123,13 +123,13 @@
         - commit기록에서 commit을 삭제하거나 분리하는 대신 지정된 변경 사항을 반전시키는 새 commit을 생성
         - git에서 기록이 손실되는 것을 방지하며 기록의 무결성과 협업의 신뢰성 높임
     - git reset: 특정 commit으로 되돌아가는 작업, git reset [옵션 <commit id>
-    - git resetd 작동 원리: 되돌리기, 시계를 마치 과거로 돌리는 듯한 행위, 특정 commit 으로 되돌아 갔을 때, 되돌아간 commit 이후의 commit은 모두 삭제
+    - git reset 작동 원리: 되돌리기, 시계를 마치 과거로 돌리는 듯한 행위, 특정 commit 으로 되돌아 갔을 때, 되돌아간 commit 이후의 commit은 모두 삭제
         - —sort, —mixed. —hard: 삭제되는 commit들의 기록을 어떤 영역에 남겨둘 것인지 정하는 옵션.
             - soft: 삭제 commit을 staging area에 남김
-        - git restore: 파일 내용 수정 전으로 되돌리기
-            - staging area에 올라간 파일을 Unstage 하기
-                - git rm —cached
-                - git restore —staged
+    - git restore: 파일 내용 수정 전으로 되돌리기
+        - staging area에 올라간 파일을 Unstage 하기
+            - git rm —cached
+            - git restore —staged
   </details>
 
 

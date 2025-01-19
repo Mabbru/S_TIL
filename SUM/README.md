@@ -54,14 +54,43 @@
     - rm: 파일 삭제 (디렉토리 삭제는 -r옵션을 추가 사용)
         - rm dir -r, rm -r dir 상관 X
     - git init: 로컬 저장소 설정(초기화) => git의 버전 관리를 시작할 디렉토리에서 진행
+        - git 로컬 저장소 내에 또 다른 git 로컬 저장소를 만들지 말 것
     - git add: 변경사항이 있는 파일을 staging area에 추가
-    
+    - git commit: staging area에 있는 파일들을 저장소에 기록 => 해당 시점의 버전을 생성, 변경 이력을 남김
+        - -m: 메세지 설정
+        - --amend: commit 메시지 수정 => Vim 에디터에서 수정
+    - git config --global user.email "메일 주소" or user.name "유저네임": commit 작성자 정보 설정
+        - git config --global -l: 설정 정보 보기
+    - git status: 현재 로컬 저장소의 파일 상태 보기
+    - git log: commit hisorty 보기
+        - git log --oneline: 한 줄로 보기
+    - git remote add origin remote_repo_url: 로컬 저장소에 원격 저장소 추가 
+        - git remote -v: 현재 로컬 저장소에 등록된 원격 저장소 목록
+        - git remote rm 원격 저장소 이름: 로컬 저장소에 등록된 원격 저장소 삭
+    - git push origin master: 원격 저장소에 commit 목록을 업로드 => commit이 올라가므로 commit 이력이 없으면 push X
+    - git pull origin master: 원격 저장소의 변경사항만을 받아옴 (업데이트)
+    - git clone origin master: 원격 저장소 전체를 복제 (다운로드)
+    - gitignore: Git에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는데 사용되는 텍스트 파일
+    - git revert <commit id>: 특정 commit을 없었던 일로 만드는 작업 (없앴다는 로그는 남음)
+        - git revert 79ch 와 같이 사용
+        - 공백이나 '..'을 사용해 한 번에 실행 취소 가능 
+    - git reset [옵션] <commit id>: 특정 commit으로 되돌아가는 작업 => 삭제되는 commit들의 기록을 어떤 영역에 남겨둘 지 옵션 활용 가
+        - --soft: staging area에 남김
+        - --mixed: working directory에 남김 (기본 옵션 값)
+        - --hard: 기록을 남기지 않음
+    - git restore: Working Directory에서 파일을 수정한 뒤, 파일의 수정 사항을 취소하고, 원래 모습대로 되돌리는 작업
+    - git rm --cached: Staging Area에서 Working Directory로 되돌리기 (git 저장소에 "commit이 없는 경우")
+    - git restore --staged: Staging Area에서 Working Directory로 되돌리기 (git 저장소에 "commit이 있는 경우")
   </details>
 
   <details>
     <summary>Chat GPT&API</summary>
     
-    - cd
+    - ChatGPT (Generative / Pre-trained / Transformer): 생성 모델 / 사전 훈련 / 트랜스포머 AI 모델 => GPT 모델을 기반으로 한 대화형 AI
+    - API (비가시 영역의 수 많은 통신 종류 중 하나): 두 소프트웨어 (또는 시스템)가 서로 통신할 수 있게 하는 메커니즘
+        - API Key: API에게 요청을 보내는 애플리케이션을 구별하기 위한 고유한 식별 문자
+            - 보안 강화와 데이터 관리 측면에서 필요성 有 => 따라서 노출되면 안돼며 정기 갱신이 필요
+    
   </details>
   
 </details>

@@ -98,12 +98,12 @@
 </details>
 
 <details>
-  <summary><h2>2주차</h2></summary>
+  <summary><h2>3주차</h2></summary>
 
   <details>
-    <summary>Basic Syntax</summary>
+    <summary>Programing</summary>
     
-    Python_
+    sum
 
   </details>
 </details>

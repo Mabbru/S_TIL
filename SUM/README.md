@@ -75,9 +75,9 @@
         - git revert 79ch 와 같이 사용
         - 공백이나 '..'을 사용해 한 번에 실행 취소 가능 
     - git reset [옵션] <commit id>: 특정 commit으로 되돌아가는 작업 => 삭제되는 commit들의 기록을 어떤 영역에 남겨둘 지 옵션 활용 가
-        - --soft: staging area에 남김
-        - --mixed: working directory에 남김 (기본 옵션 값)
-        - --hard: 기록을 남기지 않음
+        - git reset --soft <commit id>: staging area에 남김
+        - git reset --mixed <commit id>: working directory에 남김 (기본 옵션 값)
+        - git reset --hard <commit id>: 기록을 남기지 않음
     - git restore: Working Directory에서 파일을 수정한 뒤, 파일의 수정 사항을 취소하고, 원래 모습대로 되돌리는 작업
     - git rm --cached: Staging Area에서 Working Directory로 되돌리기 (git 저장소에 "commit이 없는 경우")
     - git restore --staged: Staging Area에서 Working Directory로 되돌리기 (git 저장소에 "commit이 있는 경우")

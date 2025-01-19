@@ -86,7 +86,8 @@
   <details>
     <summary>Chat GPT&API</summary>
     
-    - ChatGPT (Generative / Pre-trained / Transformer): 생성 모델 / 사전 훈련 / 트랜스포머 AI 모델 => GPT 모델을 기반으로 한 대화형 AI
+    - ChatGPT (Generative / Pre-trained / Transformer): 생성 모델 / 사전 훈련 / 트랜스포머 AI 모델 
+    => GPT 모델을 기반으로 한 대화형 AI
     - API (비가시 영역의 수 많은 통신 종류 중 하나): 두 소프트웨어 (또는 시스템)가 서로 통신할 수 있게 하는 메커니즘
         - API Key: API에게 요청을 보내는 애플리케이션을 구별하기 위한 고유한 식별 문자
             - 보안 강화와 데이터 관리 측면에서 필요성 有 => 따라서 노출되면 안돼며 정기 갱신이 필요

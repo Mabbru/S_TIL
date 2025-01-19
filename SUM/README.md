@@ -7,7 +7,7 @@
   <details>
     <summary>CLI(Command LIne Interface)</summary>
     
-    <h3>CLI&GUI</h3>
+    CLI&GUI
     
     - CLI: <strong>명령어</strong>를 통해 사용자와 컴퓨터가 상호 작용하는 방식 <br>=> CLI에서 가장 중요한 것은 <strong>내가 어디 있는지(경로)</strong> 아는 것 
     - GUI: <strong>그래픽</strong>을 통해 사용자와 컴퓨터가 상호 작용하는 방식
@@ -25,7 +25,7 @@
   <details>
     <summary>Git</summary>
     
-    <h3>Git 개념</h3>
+    Git 개념
     
     - git: 분산 버전 관리
         - 버전 관리란 변화를 **기록하고 추적**하는 것

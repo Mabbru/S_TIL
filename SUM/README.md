@@ -2,12 +2,12 @@
 
 ## 1월
 <details>
-  <summary><h3>2주차</h3></summary>
+  <summary><h2>2주차</h2></summary>
 
   <details>
     <summary>CLI(Command LIne Interface)</summary>
     
-    <h4>CLI&GUI</h4>
+    <h3>CLI&GUI</h3>
     
     - CLI: <strong>명령어</strong>를 통해 사용자와 컴퓨터가 상호 작용하는 방식 <br>=> CLI에서 가장 중요한 것은 <strong>내가 어디 있는지(경로)</strong> 아는 것 
     - GUI: <strong>그래픽</strong>을 통해 사용자와 컴퓨터가 상호 작용하는 방식
@@ -25,7 +25,7 @@
   <details>
     <summary>Git</summary>
     
-    <h4>Git 개념</h4>
+    <h3>Git 개념</h3>
     
     - git: 분산 버전 관리
         - 버전 관리란 변화를 **기록하고 추적**하는 것
@@ -42,7 +42,7 @@
             - Staging Area: 개념적인 영역으로 다음 버전에 포함시킬 파일들을 선택적으로 추가하거나 제외할 수 있는 영역 
             - Repository: 버전 이역과 파일들이 영구적으로 저장되는 영역으로 모든 버전과 변경 이력이 기록, 버젼 = commit
     
-    <h4>Git bash 명령어</h4>
+    <h3>Git bash 명령어</h3>
 
     - CLI에서 '.'(점): '.'은 현재 디렉토리, '..'는 현재의 상위 디렉토리(부모 폴더)를 의미
     - touch: 파일 생성

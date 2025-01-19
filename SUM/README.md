@@ -7,8 +7,8 @@
   <details>
     <summary>CLI(Command LIne Interface)</summary>
     <h4>CLI&GUI</h4>
-    - CLI: <strong>명령어</strong>를 통해 사용자와 컴퓨터가 상호 작용하는 방식 <br>=> CLI에서 가장 중요한 것은 <strong>내가 어디 있는지(경로)</strong>strong> 아는 것 
-    - GUI: <strong>그래픽</strong>strong>을 통해 사용자와 컴퓨터가 상호 작용하는 방식
+    - CLI: <strong>명령어</strong>를 통해 사용자와 컴퓨터가 상호 작용하는 방식 <br>=> CLI에서 가장 중요한 것은 <strong>내가 어디 있는지(경로)</strong> 아는 것 
+    - GUI: <strong>그래픽</strong>을 통해 사용자와 컴퓨터가 상호 작용하는 방식
 
     <h4>CLI 사용하는 이유</h4>
     - 효율성

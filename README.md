@@ -1,4 +1,4 @@
-# MY TIL
+# MY TIL (속기)
 
 ## 1월
 <details>

@@ -164,18 +164,15 @@
 
 <details>
   <summary><h3>4주차</h3></summary>
-
-  <details>
-    <summary><h3>4주차</h3></summary>
-
-<details>
-  <summary>프로그래밍</summary>
+  
+    <details>
+    <summary>프로그래밍</summary>
   - **명령어들의 집합**으로, 핵심은 새로운 연산을 정의하고 조합하여 유용한 작업을 수행하는 것
   - 문제를 해결하는 매우 강력한 방법
-</details>
+    </details>
 
-<details>
-  <summary>Python 개념</summary>
+    <details>
+    <summary>Python 개념</summary>
   - **Python을 배우는 이유**
     - 쉽고 간결한 문법
     - 활발한 파이썬 커뮤니티
@@ -191,11 +188,11 @@
   - **문장**
     - 실행 가능한 동작을 기술하는 코드 (조건문, 반복문, 함수 정의 등)
     - 문장은 보통 여러 표현식을 포함
-</details>
+  </details>
 
-<details>
+  <details>
   <summary>Python 변수</summary>
-  - **Type(타입)**: 변수나 값이 가질 수 있는 데이터 종류를 정의
+    - **Type(타입)**: 변수나 값이 가질 수 있는 데이터 종류를 정의
     - 타입은 **값**과 **값에 적용할 수 있는 연산**으로 이루어짐
   - **변수**
     - 값을 저장하기 위한 이름 (값을 참조하는 역할)
@@ -208,7 +205,7 @@
     - 메모리: 위치마다 고유 주소를 가지며 데이터를 저장
     - 객체(Object): 타입을 가진 값이 메모리에 저장된 상태
     - 변수: 특정 객체(메모리 주소)를 참조
-</details>
+  </details>
 
 <details>
   <summary>Python Type</summary>
@@ -249,7 +246,7 @@
       - **String Interpolation**
         - 문자열 내 변수/표현식 삽입 (`f-string` 등)
         - 예: `[::-1]`로 문자열 뒤집기
-</details>
+  </details>
 
   
 </details>

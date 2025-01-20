@@ -163,11 +163,11 @@
 </details>
 
 <details>
-  <summary><h3>2주차</h3></summary>
+  <summary><h3>3주차</h3></summary>
 
   <details>
     <summary>프로그래밍</summary>
-    프로그래밍: 명령어들의 집합으로 핵심은 새 연산을 정의하고 조합해 유용한 작업을 수행하는 것
+    명령어들의 집합으로 핵심은 새 연산을 정의하고 조합해 유용한 작업을 수행하는 것
   ⇒ 문제를 해결하는 매우 강력한 방법
   </details>
 

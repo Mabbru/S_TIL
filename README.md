@@ -263,5 +263,40 @@
         - 슬라이싱 및 리버스([::-1])
   </details>
 
+  <details>
+    <summary>CUL & GUL</summary>
+    
+    - CLI(Command Line Interface): **명령어**를 통해 사용자와 컴퓨터가 상호 작용하는 방식
+    - GUL(Graphic User Interface): **그래픽**을 통해 사용자와 컴퓨터가 상호 작용하는 방식
+    - CLI를 사용해야 하는 가장 큰 이유는 **메모리와 CPU 사용량이 적어** 효율적으로 동작하기 때문이다. ⇒ 컴퓨터가 **개인화**가 되면서 혁신이 일어났다. 개발자라면 시스템을 구축하여 제공할 수 있어야 하며, 이를 위해서 효율성이 필요하다.
+  </details>
+
+  <details>
+    <summary>Data type</summary>
+    
+    - review
+      - 부동 소수점
+      - 지수표현: 3.14e+-4
+      - Sequence Types: 여러 개의 값들을 순서대로 나열하여 저장하는 자료형
+      - str: 문자들의 순서가 있는 변경 불가능한 시퀀스 자료형
+      - String Interpolation: 문자열 내에 변수나 표현식을 삽입하는 방법
+        - f - string
+    - Sequence Types
+      - list: 여러 개의 값을 순서대로 저장하는 변경 가능한 시퀀스 자료형
+        - 리스트 표현
+  </details>
+
+  <details>
+    <summary>Data type</summary>
+    
+    - 
+  </details>
+
+  <details>
+    <summary>Data type</summary>
+    
+    - 
+  </details>
+
   
 </details>

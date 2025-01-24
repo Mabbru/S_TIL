@@ -101,11 +101,141 @@
   <summary><h2>4주차</h2></summary>
 
   <details>
-    <summary>Programing</summary>
+    <summary>Python이란?</summary>
     
     - sum
 
   </details>
+  
+  <details>
+    <summary>Data_Type</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>연산자</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>단축평가</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>함수란</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>매개변수와 인자</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>재귀함수</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>내장함수</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>Scope</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>Packing&Unpacking</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>lamda</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>모듈이란</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>제어문</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>조건문</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>반복문</summary>
+
+    # enumerate
+    ##번외: list를 만드는 방법 → 반복문, list comprehension, map 총 3가지 방법
+ 
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>데이터 구조와 메서드</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>문자열</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>리스트</summary>
+    
+    - sum
+
+  </details>
+  
+  <details>
+    <summary>복사</summary>
+    
+    - sum
+
+  </details>
+  
 </details>
 
 <details>

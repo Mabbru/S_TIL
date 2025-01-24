@@ -103,7 +103,7 @@
   <details>
     <summary>Programing</summary>
     
-    sum
+    - sum
 
   </details>
 </details>

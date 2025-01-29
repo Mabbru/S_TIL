@@ -103,14 +103,41 @@
   <details>
     <summary>Python이란?</summary>
     
-    - sum
-
+    - 쉽고 간결한 문법
+      - 읽기 쉽고 쓰기 쉬운 문법으로 쉽게 활용 가능
+    - 파이썬 커뮤니티의 지원
+      - 세계적인 규모의 풍부한 온라인 포럼 및 커뮤니티 생태계
+    - 광범위한 응용 분야
+      - 웹 개발, 데이터 분석, 인공지능, 자동화 스크립트 등 다양한 분야에서 사용
+    - 직관적인 문법
+    - 강력한 표준 라이브러리
+    - 빠른 프로토타입
   </details>
   
   <details>
     <summary>Data_Type</summary>
     
-    - sum
+    - Numeric Type
+      - int(정수)
+      - float(실수)
+        - 프로그래밍 언어에서 float는 실수에 대한 근삿값 => 부동소수점 애러 발생
+      - complex(복소수)
+    - Sequence types: 순서 / 인덱싱(시퀀스 내 값들의 고유 번호로 위치 식별에 쓰이는 숫자) / 슬라이싱(시퀀스를 추출하여 새로운 시퀀스를 생성) / 길이 / 반복
+      - str: 순서가 있는 변경 불가능한 시퀀스 자료형
+        - f-string: print 방법 중 하나로 따옴표 주의할 것
+      - list: 여러 개의 값을 순서대로 저장하는 변경 가능한 시퀀스 자료형
+        - 0개 이상의 객체를 포함
+      - tuple
+      - range
+    - Text Sequence Type
+      - str(문자열)
+    - Non-sequence Types
+      - set
+      - dict
+    - 기타
+      - Boolean
+      - None
+      - Functions
 
   </details>
   
